@@ -97,4 +97,11 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-7C231IU-releases</name>
+        <url>http://localhost:8081/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
